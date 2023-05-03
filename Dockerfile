@@ -21,7 +21,7 @@ RUN find /etc/xen-orchestra/packages/ -maxdepth 1 -mindepth 1 -not -name "xo-ser
 # Runner container
 FROM node:16-buster-slim
 
-MAINTAINER Roni Väyrynen <roni@vayrynen.info>
+MAINTAINER Antony peronio <antonyperonio@midgard.com.br>
 
 # Install set of dependencies for running Xen Orchestra
 # backports repo needed for monit
